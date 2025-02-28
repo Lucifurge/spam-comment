@@ -36,4 +36,4 @@ for i in range(comment_limit):
     if response.status_code == 200:
         console.print(Panel(f'[green]Comment {i+1} posted successfully.[/green]', width=60, border_style="green"))
     else:
-        console.print(Panel(f'[red]Error posting comment {i+1}: {response.status_code} {response.text}[/red]', width=60, border_style="red"))
+        console.print(Panel(f'[red]Error posting comment {i+1}: {response.status_code} {response.text}[/red]', width=60, border_style="red"))   
